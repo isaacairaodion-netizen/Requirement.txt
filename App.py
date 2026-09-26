@@ -116,7 +116,7 @@ def call_gemini(messages):
     genai.configure(api_key=key)
 
     model = genai.GenerativeModel(
-        "gemini-1.5-flash"
+        "gemini-3.6-flash"
     )
 
     history = []
