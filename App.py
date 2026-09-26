@@ -19,8 +19,6 @@ st.caption("Universal Design • Powered by Prince + Gemini Fallback")
 # ──────────────────────────────────────────────
 try:
     PRINCE_API_KEY = st.secrets["PRINCE_API_KEY"]
-    PRINCE_BASE_URL = st.secrets.get("PRINCE_BASE_URL", "https://api.openai.com/v1")
-    
     GOOGLE_KEYS = [
         st.secrets.get("GOOGLE_API_KEY_1", ""),
         st.secrets.get("GOOGLE_API_KEY_2", ""),
